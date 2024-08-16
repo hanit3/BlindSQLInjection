@@ -42,11 +42,11 @@ Injection 공격을 자동으로 수행하기 위한 Python 스크립트를 개�
 ② 프로그램 실행 후 세션 ID 입력하여 공격<br>
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/ded2889c-7b3b-4a15-b53a-a4d9f8c4add7">
 
-<br><br>
+<br>
 - 만약 세션 ID가 비어있다면 경고창 실행<br>
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/1804e550-c278-4c5a-867e-28b3ee1f9fc4">
 
-<br><br>
+<br>
 - 명령 프롬프트에서 테이블 탈취 중임을 확인<br>
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/442ffbbd-1cf0-47f9-a3e0-dac220738e6c">
 
