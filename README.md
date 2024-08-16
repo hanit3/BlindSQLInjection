@@ -1,6 +1,6 @@
 # BlindSQLInjection
 Python을 이용한 Blind SQL Injection 자동화 공격 스크립트
-
+<br>
 
 ## 개요
 웹사이트의 데이터베이스를 탈취하기 위해 공격 대상에 SQL Injection 취약점이 있는지 파악한 후, <br>
@@ -37,23 +37,23 @@ Injection 공격을 자동으로 수행하기 위한 Python 스크립트를 개�
 ## 공격 과정
 - 공격 흐름도
 <img width="441" alt="image" src="https://github.com/user-attachments/assets/269ba74c-5eda-428e-afeb-2933b8b08a07">
-<br>
+<br><br>
 ① 웹사이트의 세션 ID값 확인<br><br>
 ② 프로그램 실행 후 세션 ID 입력하여 공격<br>
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/ded2889c-7b3b-4a15-b53a-a4d9f8c4add7">
 <br>
-- 만약 세션 ID가 비어있다면 경고창 실행<br>
+  - 만약 세션 ID가 비어있다면 경고창 실행<br>
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/1804e550-c278-4c5a-867e-28b3ee1f9fc4">
 <br>
-- 명령 프롬프트에서 테이블 탈취 중임을 확인<br>
+  - 명령 프롬프트에서 테이블 탈취 중임을 확인<br>
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/442ffbbd-1cf0-47f9-a3e0-dac220738e6c">
 <br><br>
 ③ 컬럼명 탈취<br>
-- 테이블 리스트에서 컬럼을 구하고자 하는 테이블을 하나 선택하면 해당 테이블의 모든 컬럼을 구하는 SQL Injection이 실행됨<br>
+  - 테이블 리스트에서 컬럼을 구하고자 하는 테이블을 하나 선택하면 해당 테이블의 모든 컬럼을 구하는 SQL Injection이 실행됨<br>
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/dc5ed307-7a5d-48f4-ada9-5bd86f8f1064"><br>
 <br><br>
 ④ 데이터 탈취<br>
-- 위에서 구한 컬럼 리스트에서 데이터를 구하고자 하는 컬럼을 하나 선택하면 해당 컬럼의 모든 데이터를 추출하는 SQL Injection이 실행되고 이를 출력함<br>
+  - 위에서 구한 컬럼 리스트에서 데이터를 구하고자 하는 컬럼을 하나 선택하면 해당 컬럼의 모든 데이터를 추출하는 SQL Injection이 실행되고 이를 출력함<br>
 <img width="398" alt="image" src="https://github.com/user-attachments/assets/04ee9a7f-663f-4d85-9944-21aaf7dec3e2">
 <br>
 
