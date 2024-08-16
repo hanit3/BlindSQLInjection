@@ -41,16 +41,18 @@ Injection 공격을 자동으로 수행하기 위한 Python 스크립트를 개�
 ① 웹사이트의 세션 ID값 확인<br><br>
 ② 프로그램 실행 후 세션 ID 입력하여 공격<br>
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/ded2889c-7b3b-4a15-b53a-a4d9f8c4add7">
-<br>
+<br><br>
   - 만약 세션 ID가 비어있다면 경고창 실행<br>
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/1804e550-c278-4c5a-867e-28b3ee1f9fc4">
-<br>
+<br><br>
   - 명령 프롬프트에서 테이블 탈취 중임을 확인<br>
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/442ffbbd-1cf0-47f9-a3e0-dac220738e6c">
 <br><br>
 ③ 컬럼명 탈취<br>
   - 테이블 리스트에서 컬럼을 구하고자 하는 테이블을 하나 선택하면 해당 테이블의 모든 컬럼을 구하는 SQL Injection이 실행됨<br>
-<img width="432" alt="image" src="https://github.com/user-attachments/assets/dc5ed307-7a5d-48f4-ada9-5bd86f8f1064"><br>
+<img width="401" alt="image" src="https://github.com/user-attachments/assets/67551692-9a67-4882-a093-65b39e1fdd19">
+
+
 <br><br>
 ④ 데이터 탈취<br>
   - 위에서 구한 컬럼 리스트에서 데이터를 구하고자 하는 컬럼을 하나 선택하면 해당 컬럼의 모든 데이터를 추출하는 SQL Injection이 실행되고 이를 출력함<br>
