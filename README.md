@@ -26,13 +26,13 @@ Injection 공격을 자동으로 수행하기 위한 Python 스크립트를 개�
 
 ## 개발 환경
 <div>
-  <img src="https://img.shields.io/badge/burpsuite-FF6633.svg?style=for-the-badge&logo=burpsuite&fontColor=white" />
-  <img src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&fontColor=white" />
-  <img src="https://img.shields.io/badge/visualstudio-0854C1.svg?style=for-the-badge&logo=googlechrome&fontColor=white" />
-  <img src="https://img.shields.io/badge/chromium-4285F4.svg?style=for-the-badge&logo=googlechrome&fontColor=white" />
-  <img src="https://img.shields.io/badge/windows-000000.svg?style=for-the-badge&logo=gnometerminal&fontColor=white" />
+  <img src="https://img.shields.io/badge/burpsuite-FF6633.svg?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/visualstudio-0854C1.svg?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/chromium-4285F4.svg?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/windows-000000.svg?style=for-the-badge&logo=gnometerminal&logoColor=white" />
 </div>
-<br>
+<br><br>
 
 ## 공격 과정
 - 공격 흐름도
@@ -63,7 +63,7 @@ Injection 공격을 자동으로 수행하기 위한 Python 스크립트를 개�
 
 ## 공격 순서에 따른 함수 호출 과정
 <img width="412" alt="image" src="https://github.com/user-attachments/assets/1327616f-69a8-424c-ba46-178ccbf1595f">
-<br>
+<br><br>
 
 ## 파일 및 함수 명세
 <h3>파일 명세</h3>
