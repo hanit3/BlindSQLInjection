@@ -1,6 +1,6 @@
-# BlindSQLInjection
+# Blind SQL Injection Script
 Python을 이용한 Blind SQL Injection 자동화 공격 스크립트
-<br>
+<br><br>
 
 ## 개요
 웹사이트의 데이터베이스를 탈취하기 위해 공격 대상에 SQL Injection 취약점이 있는지 파악한 후, <br>
@@ -28,7 +28,7 @@ Injection 공격을 자동으로 수행하기 위한 Python 스크립트를 개�
 <div>
   <img src="https://img.shields.io/badge/burpsuite-FF6633.svg?style=for-the-badge&logo=burpsuite&logoColor=white" />
   <img src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/visualstudio-0854C1.svg?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/visualstudio-0854C1.svg?style=for-the-badge&logo=visualstudio&logoColor=white" />
   <img src="https://img.shields.io/badge/chromium-4285F4.svg?style=for-the-badge&logo=googlechrome&logoColor=white" />
   <img src="https://img.shields.io/badge/windows-000000.svg?style=for-the-badge&logo=gnometerminal&logoColor=white" />
 </div>
