@@ -1,7 +1,7 @@
 import requests
 from urllib import parse
 
-url = "https://elms2.skinfosec.co.kr:8110/practice/practice01/detail?id=62+and+{}"
+url = ""
 
 cookies={
     "JSESSIONID":"799396AB33D24E3C09ADC3D18FFD3F5F"
